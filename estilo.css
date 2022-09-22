@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Estilo Navegacion*/
+#codoacodo{
+    width: 20%;
+    height: 40%;
+}
+.logo{
+    margin-left: 6%;
+}
+.navbar{
+    background-color: rgb(53, 58, 64);
+    margin: 0 auto;
+}
+.nav-item{
+    font-size:14px;
+}
+@media (min-width: 1800px){
+    .nav-item{
+        font-size: 25px;
+    }
+    #conf{
+        font-size: 35px;
+    }
+}
+@media (min-width: 1400px) and (max-width: 1800px){
+    .nav-item{
+        font-size: 15px;
+    }
+    #conf{
+        font-size: 25px;
+    }
+}
+
+
+
+
+/* Estilo Carta*/
+#carta{
+    height: 500px;
+    background: rgba(0, 0, 0, 0.5) url("/IMG/carta.jpg");
+    background-blend-mode:screen ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: flex-end;
+    text-align: right;
+    color: white;
+    background-blend-mode: darken;
+}
+
+#contenido{
+    position: absolute;
+    right: 8%;
+    top: 30%;
+}
+#contenido h1{
+    font-size: x-large;
+}
+.boton{
+    color: white;
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0);
+    border-radius:5px;
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+}
+
+#uno{
+    border: 1px solid rgb(17, 153, 23);
+    background-color:rgb(17, 153, 23);
+}
+@media (max-width: 990px) {
+    #carta div h1{
+        font-size: 20px;
+    }
+    #carta div p{
+        font-size: 15px;
+    }
+    #contenido{
+        margin: 0 auto;
+    }
+    #carta{
+        align-items:center;
+        justify-content: center;
+    }
+}
+@media (min-width: 1500px) {
+    #carta{
+        height: 550px;
+    }
+    #carta div h1{
+        font-size: 40px;
+    }
+    #carta div p{
+        font-size: 30px;
+    }
+    .boton{
+        font-size: 32px;
+        width: 300px;
+        height: 60px;
+    }
+}
+
+
+/* Estilo Oradores*/
+.container1{
+    width: 70%;
+    margin: 0 auto;
+}
+.unico{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container1 h2 span{
+    font-size: medium;
+    font-weight: normal;
+}
+.card-body h3{
+    font-size: 30px;
+}
+
+
+/*Estilo lugar y fecha*/
+.container2{
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 400px;
+    margin-bottom: 15px;
+}
+.img{
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    border: .5px solid white;
+    height: 400px;
+}
+.img img{
+    height: 398.5px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.parrafo{
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    background-color:rgb(53, 58, 64);
+    color: white;
+    border: .5px solid white;
+    height: 400px;
+}
+.parrafo h2,
+.parrafo p,
+.parrafo button{
+    margin: 10px;
+}
+.parrafo p{
+    font-size: 11.5px;
+    line-height:20px;
+}
+.parrafo h2{
+    font-size:x-large;
+}
+#conoce{
+    height: 25px;
+    font-size: 11.5px;
+    border-radius: 3px;
+    width: 80px;
+}
+
+@media (min-width: 1400px) and (max-width: 1600px){
+    .parrafo h2{
+        font-size: 30px;
+    }
+    .parrafo p{
+        font-size: 15px;
+    }
+    #conoce{
+        font-size: 20px;
+        width: 160px;
+        height: 40px;
+    }
+}
+@media (min-width: 1600px){
+    .parrafo h2{
+        font-size: 40px;
+    }
+    .parrafo p{
+        font-size: 20px;
+    }
+    #conoce{
+        font-size: 30px;
+        width: 200px;
+        height: 60px;
+    }  
+}
+
+/*Estilo Formulario*/
+
+#formulario{
+    margin-top: 10px;
+    width: 50%;
+    padding: 0;
+    margin: 0 auto;
+}
+.for{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.contenedores{
+    margin-bottom: 13px;
+}
+#nombre{
+    height: 30px;
+}
+#apellido{
+    height: 30px;
+}
+#formulario p{
+    font-size: 10px;
+}
+#formulario h2{
+    font-size: 25px;
+}
+#formulario p{
+    font-size: 12px;
+}
+.enviar{
+    width: 100%;
+    height: 40px;
+    background:rgb(150, 201, 62);
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+#formulario #recuerda{
+    margin-top: -10px;
+    font-size: 10px;
+}
+#formulario h2 span{
+    font-size:small;
+    font-weight: normal;
+}
+/*Estilo Footer*/
+#footer{
+    width: 100%;;
+    height: 80px;
+    background-color: rgb(29, 73, 98);
+    margin-top: 10px;
+}
+#footer ul{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    gap: 15px;
+    line-height:18px;
+    top: 25px;
+    position: relative;
+}
+#footer ul li{
+    list-style: none;
+    width: 200px;
+    padding: 0;
+}
+#footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+@media (max-width: 700px){
+    #footer{
+        height: 40px;
+        margin-top: 5px;
+    }
+    #footer ul li a{
+        font-size: 5px;
+       
+    }
+    #footer ul{
+        top: 12.5px;
+        gap: 20px;
+        line-height: 5px;
+    }
+}
