@@ -192,6 +192,9 @@
         width: 160px;
         height: 40px;
     }
+    .container{
+        flex-direction: column;
+    }
 }
 @media (min-width: 1600px){
     .parrafo h2{
@@ -206,7 +209,6 @@
         height: 60px;
     }  
 }
-
 /*Estilo Formulario*/
 
 #formulario{
