@@ -1,5 +1,4 @@
---------------------------------------------------------Trabajo práctico integrador (parte 1)--------------------------------------------------------------
-
+----------------------------------------------Trabajo práctico integrador (parte 1)--------------------------------------
  
 
 Grupos separados: Comision 22579 
@@ -32,7 +31,7 @@ Netlify, ftp, servidor gratuito, github o alguna herramienta que permita alojar 
  
  
 
---------------------------------------------------------Trabajo práctico integrador JS (parte 2)----------------------------------------------------------- 
+----------------------------------------------Trabajo práctico integrador JS (parte 2)--------------------------------------
 
 Grupos separados: Comision 22579 
 
